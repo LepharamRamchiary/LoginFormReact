@@ -1,0 +1,96 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 100vh;
+}
+.sub-main{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    width: 50vw;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207 207);
+    /* box-shadow: 0.6875em, 0.75em, 0.8125em, 0.75em rgb(207, 207, 207) ; */
+    padding-top: 30px;
+    border-radius: 50px;
+    background-color: white;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* height: 100px; */
+    /* width: 100%; */
+}
+.container-images{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    /* border-radius: initial; */
+    border-radius: 150px;
+    height:  7vw;
+    width:  7vw;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    height: 6vw;
+    width: 6vw;
+    border-radius: 130px;
+}
+input{
+    width: 20vw;
+    height: 6vh;
+    border-radius: 3.75rem;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+.email{
+    height: 5vh;
+    position: absolute;
+    padding: 0.3rem 0 0 0.5rem;
+    
+}
+.name{
+    padding-left: 3rem;
+    font-size: 3vmin;
+}
+.second-input{
+    margin-top: 1rem;
+}
+.passw{
+    height: 3.2vh;
+    position: absolute;
+    padding: 0.7rem 0 0 0.8rem;
+}
+.btn{
+    align-items: center;
+    margin-left: 1.6rem;
+    margin-top: 1rem;
+    width: 20vw;
+    height: 6vh;
+    font-size: 3vmin;
+    border-radius: 3.75rem;
+    background-color: #b103fc;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -0.5rem;
+}
+.sudo{
+    align-items: center;
+    text-align: center;
+    font-size: 2.5vmin;
+}
+a{
+    color: blue;
+}
